@@ -1,0 +1,17 @@
+9. SALON
+
+BEGÝN Kahve yapýmý
+INPUT "Kahvenizi nasýl alýrsýnýz?"
+
+IF þekersiz 
+þeker miktarý=0 ölçek
+
+IF orta 
+0<þeker miktarý<=1 ölçek
+
+IF þekerli 
+2>þeker miktarý>1 ölçek
+
+CALCULATE kahve ve su miktarý (göz kararý)
+COMPUTE cezve (kahve + su + þeker miktarý) 
+OUTPUT türk kahvesi

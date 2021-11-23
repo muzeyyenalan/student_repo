@@ -1,0 +1,237 @@
+$ history
+    1  pwd
+    2  cd desktop
+    3  pws
+    4  pwd
+    5  explorer.exe
+    6  explorer.exe .
+    7  mkdir clarusway
+    8  cd clarusway
+    9  ls -al
+   10  mkdir folder1 folder2 folder3 folder4
+   11  touch test.txt folder1
+   12  touch folder1 test.txt
+   13  touch folder1/ test.txt
+   14  pwd
+   15  touch ./folder1 test.txt
+   16  touch ./folder1/ test.txt
+   17  touch .clarusway/folder1/ test.txt
+   18  touch .clarusway/folder1/test.txt
+   19  touch ./folder1/test.txt
+   20  cd folder1
+   21  pwd
+   22  echo "hello" > test.txt
+   23  echo
+   24  cat test.txt
+   25  echo "My name is Robert" >> test.txt
+   26  cat test.txtü
+   27  cat test.txt
+   28  cat > test1.txt
+   29  cat test1.txt
+   30  clear
+   31  cat test.txt test1.txt
+   32  touch multiple{1..10}
+   33  cd
+   34  pwd
+   35  cd /desktop/clarusway
+   36  cd desktop/clarusway
+   37  mkdir europe
+   38  ls
+   39  cd folder1
+   40  ls
+   41  mkdir ../europe2
+   42  ls
+   43  cd ..
+   44  ls
+   45  cd europe
+   46  touch lab.txt lab1.txt
+   47  ls
+   48  echo "this is the first line of the second directory" > lab.txt
+   49  cat lab.txt
+   50  clear
+   51  cp lab.txt newlab.txt
+   52  ls
+   53  ls
+   54  cp newlab.txt ../
+   55  cd ..
+   56  ls
+   57  cd europe
+   58  ls
+   59  cd ..
+   60  cd folder1
+   61  ls
+   62  cp m*{6..10}.txt ..
+   63  cd ..
+   64  cp /folder1/m*{6..10}.txt .
+   65  cp ../folder1/m*{6..10}.txt .
+   66  cp /desktop/clarusway/folder1/m*{6..10}.txt .
+   67  cp ~/desktop/clarusway/folder1/m*{6..10}.txt .
+   68  mv ~/desktop/clarusway/folder1/m*{6..10}.txt .
+   69  tree
+   70  sudo su
+   71  sudo
+   72  pwd
+   73  cd /root
+   74  sudo
+   75  sudo add user test
+   76  clear
+   77  pwd
+   78  ls
+   79  cd desktop
+   80  ls
+   81  cd clarusway
+   82  clear
+   83  ls
+   84  chmod --help,
+   85  ls -l
+   86  touch cas.txt
+   87  ls -l
+   88  chmod u=rwx,g=-,o=- cas.txt
+   89  ls -l
+   90  chmod ugo=rwx cas.txt
+   91  ls -l
+   92  git --version
+   93  pwd
+   94  cd desktop
+   95  mkdir git_lesson
+   96  cd git_lessonü
+   97  cd git_lesson
+   98  explorer.exe .
+   99  git config --global fatalrhym
+  100  git config --user.name "fatalrhym"
+  101  git config --global user.name "fatalrhym"
+  102  git config --global user.emaail "fyar87@gmail.com"
+  103  git config --global core.editor"vim"
+  104  git config -ls
+  105  git config --list
+  106  clear
+  107  gir config --global core.editor"vim"
+  108  git config --global core.editor"vim"
+  109  git config --list
+  110  git init
+  111  ls
+  112  ls -a
+  113  git status
+  114  touch newfile.txt
+  115  ls
+  116  clear
+  117  git status
+  118  cd ..
+  119  git clone https://github.com/martinfade/itf10.git
+  120  cd
+  121  pwd
+  122  cd Desktop/git_lesson/
+  123  cd ..
+  124  mkdir git_ders
+  125  cd git_ders
+  126  git init
+  127  ls -al
+  128  clear
+  129  git status
+  130  tuch newfilw.txt
+  131  touch newfilw.txt
+  132  ls
+  133  mv newfilw.txt newfile.txt
+  134  ls
+  135  git status
+  136  explorer.exe .
+  137  explorer.exe .
+  138  git add newfile.txt
+  139  git status
+  140  touch file1.txt
+  141  rm file1.txt
+  142  ls -al
+  143  clear
+  144  git status
+  145  git commit -m "newfile.txt oluþturuldu"
+  146  fatal@fatalpc MINGW64 ~/Desktop/git_ders (master)
+  147  $fatal@fatalpc MINGW64 ~/Desktop/git_ders (master)
+  148  git config --global user.email "fyar87@gmail.com"
+  149  git config --global user.name "fatalrhym"
+  150  config list
+  151  git config lit
+  152  git config list
+  153  config -list
+  154  git config --list
+  155  clear
+  156  git commit -m "newfile.txt oluþtu"
+  157  git log
+  158  git commit --ammend
+  159  git commit --amend
+  160  git log
+  161  clear
+  162  touch newfile2.txt
+  163  git status
+  164  git status
+  165  git add .
+  166  git status
+  167  git rm --cached newfile.txt
+  168  git status
+  169  git commit -m "newfile.txt deðiþtirildi ve newfile2 eklendi"
+  170  git status
+  171  git add .
+  172  git status
+  173  git commit -am
+  174  git commit
+  175  git status
+  176  git commit -m "newfile2 eklendi"
+  177  git status
+  178  newfileit log
+  179  git log
+  180  git checkout  762a2
+  181  git checkout master
+  182  pwd
+  183  cd desktop
+  184  ls
+  185  cd clarusway_linux/
+  186  clear
+  187  cd ..
+  188  mkdir exercise
+  189  cd exercise/
+  190  vi test.txt
+  191  vi test.txt
+  192  vi test.txt
+  193  nano test.txt
+  194  cd
+  195  pwd
+  196  mkdir CLARUSMOTORS
+  197  cd CLARUSMOTORS/
+  198  ls
+  199  ls al
+  200  ls -al
+  201  mkdir GROUND SEA AIR && cd GROUND
+  202  ls - sl
+  203  ls -al
+  204  mkdir highway railway
+  205  cd ../SEA/
+  206  pwd
+  207  cd ~/CLARUSMOTORS/AIR/
+  208  ls -al
+  209  ls -al
+  210  tree
+  211  cd ../GROUND/highway/
+  212  ls -al
+  213  touch car && touch motorbike && bicycle
+  214  touch car && touch motorbike && touch bicycle
+  215  ls
+  216  echo "GROUND_vehicle 2.0 TDI" > car
+  217  echo "GROUND_vehicle 0.9 SI" > motorbike
+  218  echo "GROUND_vehicle Feet" > bicycle
+  219  touch amphibicar
+  220  ls -al
+  221  chmod ug=rw- amphibicar
+  222  ls -al
+  223  vi amphibicar
+  224  chmod ugo=rw-
+  225  chmod ugo=0rw-
+  226  chmod ugo=0777
+  227  chmod ugo=0777 amphibicar
+  228  chmod ugo=rwx amphibicar
+  229  ls -al
+  230  chmod ugo=700 amphibicar
+  231  chmod 660 amphibicar
+  232  ls -al
+  233  touch clarusvehicle
+  234  nano clarusvehicle
+  235  chmod u=rw, g=rw, o=- clarusvehicle
+  236  history

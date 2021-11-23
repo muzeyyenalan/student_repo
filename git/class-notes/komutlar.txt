@@ -1,0 +1,315 @@
+    1  cd Desktop/
+    2  mkdir test
+    3  cd test/
+    4  git init 
+    5  git status 
+    6  touch merhaba
+    7  git status 
+    8  git add .
+    9  git status 
+   10  git commit 
+   11  explorer.exe .
+   12  git --version 
+   13  pwd
+   14  cd Desktop/
+   15  mkdir git_lesson
+   16  cd git_lesson/
+   17  explorer.exe .
+   18  git config --global user.name "martinfade"
+   19  git config --global user.email "martin_fade@clarusway.com"
+   20  git config --global core.editor "vim"
+   21  git config --list
+   22  cd ..
+   23  git init
+   24  cd git_lesson/
+   25  git in
+   26  git init
+   27  ls
+   28  ll
+   29  ls -al
+   30  cd ..
+   31  ls
+   32  ls -al
+   33  rm -rf .git/
+   34  cd git_lesson/
+   35  ls -al
+   36  git status
+   37  touch newfile.txt
+   38  git status 
+   39  ls -al
+   40  cd ..
+   41  git clone https://github.com/martinfade/itf10.git
+   42  git clone http://github.com/martinfade/itf10.git
+   43  git merge
+   44  git init
+   45  git merge -m "test2"
+   46  touch test
+   47  git add .
+   48  git commit -m "test"
+   49  echo "merhaba" >> test 
+   50  git status 
+   51  git commit -am "test"
+   52  echo "merhaba" >> test 
+   53  git commit -am "test"
+   54  echo "merhaba" >> test 
+   55  git commit -am "test"
+   56  echo "merhaba" >> test 
+   57  git commit -am "test"
+   58  git log
+   59  git checkout -b yenib
+   60  echo "merhaba" >> test 
+   61  git commit -am "test"
+   62  echo "merhaba" >> test 
+   63  git commit -am "test"
+   64  git log
+   65  git checkout main 
+   66  echo "merhaba" >> test 
+   67  git commit -am "test"
+   68  echo "merhaba" >> test 
+   69  git commit -am "test"
+   70  git merge yenib 
+   71  git log
+   72  echo test1 > test 
+   73  git commit -am "new"
+   74  git checkout -b yeni2
+   75  echo "bu yeni" > test 
+   76  echo "bu yeni" >> test 
+   77  echo "bu yeni" >> test 
+   78  git commit -am "yeni"
+   79  echo "bu yeni" >> test 
+   80  git commit -am "yeni"
+   81  echo "bu yeni" >> test 
+   82  git commit -am "yeni"
+   83  git checkout main
+   84  echo "bu da güzel" > test 
+   85  git commit -am "main den bu"
+   86  echo "bu da güzel" >> test 
+   87  git commit -am "main den bu"
+   88  echo "bu da güzel" >> test 
+   89  git commit -am "main den bu"
+   90  echo "bu da güzel" >> test 
+   91  git commit -am "main den bu"
+   92  cat test 
+   93  git merge yeni2
+   94  cat test 
+   95  git commit -am "merge conf"
+   96  cat test 
+   97  vim test 
+   98  git commit -am "merge conf"
+   99  ls
+  100  cd Desktop/
+  101  clear
+  102  pwd
+  103  mkdir git-lesson-2
+  104  cd git-lesson-2/
+  105  git config --list
+  106  git help
+  107  git init
+  108  ls -al
+  109  rm -rf .git/
+  110  git status
+  111  git init
+  112  touch newfile
+  113  git status
+  114  git add newfile
+  115  git status
+  116  git commit -m "yeni dosya oluşturuldu."
+  117  git log
+  118  echo merhaba > newfile 
+  119  git status 
+  120  git add .
+  121  git commit -m "newfile a merhaba yazıldı"
+  122  git log
+  123  ls
+  124  touch newfile2
+  125  git add .
+  126  git commit -m "newfile2 eklendi"
+  127  ls
+  128  touch newfile3 
+  129  git add .
+  130  git commit -m "newfile3 eklendi"
+  131  git log
+  132  ls
+  133  git checkout 5bce
+  134  ls
+  135  clear
+  136  git log
+  137  git checkout master
+  138  git checkout main
+  139  git log
+  140  cd ..
+  141  mkdir my-second-project
+  142  cd my-second-project/
+  143  git init
+  144  touch file1.txt
+  145  vim file1.txt 
+  146  git status
+  147  git add .
+  148  git commit -m "yeni dosya eklendi"
+  149  git log
+  150  clear
+  151  touch file2.txt
+  152  echo "merhaba dünya" > file2.txt 
+  153  git add .
+  154  git status 
+  155  rm file1.txt 
+  156  git status 
+  157  mv file2.txt file3.txt
+  158  git status 
+  159  git rm --cached file3.txt 
+  160  git add file3.txt 
+  161  git status 
+  162  git commit -m "işlemler yapıldı"
+  163  ls
+  164  git log
+  165  git checkout a05d4
+  166  ls
+  167  ls -al
+  168  git log 
+  169  git branch
+  170  git branch -r
+  171  git branch -a
+  172  git branch development
+  173  git branch 
+  174  git checkout development
+  175  git branch 
+  176  git log
+  177  git branch
+  178  git branch
+  179  git checkout main
+  180  ls
+  181  git checkout development
+  182  ls
+  183  code .
+  184  cd Desktop/
+  185  mkdir git_lesson3
+  186  cd git_lesson3
+  187  mkdir tekrar
+  188  cd tekrar
+  189  git status
+  190  git init
+  191  git status
+  192  touch yeni_dosya1.txt
+  193  git status
+  194  git add yeni_dosya1.txt 
+  195  git status 
+  196  git commit -m "yenidosya1 eklendi"
+  197  git status
+  198  git log
+  199  ls
+  200  touch yeni_dosya2.txt
+  201  git status
+  202  git add .
+  203  git commit -m "yeni_dosya2.txt eklendi"
+  204  git status
+  205  git log
+  206  ls
+  207  git checkout  b8312
+  208  ls
+  209  git checkout main
+  210  clear
+  211  git branch
+  212  git branch -r
+  213  git branch -a
+  214  git branch dev
+  215  git branch
+  216  git log
+  217  git checkout b8312
+  218  clear
+  219  git branch dev-test
+  220  ls
+  221  git branch
+  222  git checkout dev
+  223  git branch
+  224  clear
+  225  git checkout dev-test 
+  226  git checkout -b dev-test-martin
+  227  clear
+  228  git log
+  229  ls
+  230  echo "bu metin dev-test-martin branchinde yazıldı" > yeni_dosya1.txt 
+  231  git checkout dev-test
+  232  ls
+  233  cat yeni_dosya1.txt 
+  234  git checkout dev-test-martin 
+  235  git status
+  236  git add .
+  237  git commit -m "yeni dosya değiştirildi"
+  238  git log
+  239  git checkout dev-test
+  240  git log
+  241  git status
+  242  git add .
+  243  git commit -m "dev-testte yenidosya değştirildi"
+  244  clear
+  245  git merge dev-test-martin 
+  246  git status
+  247  git add .
+  248  git commit "iki branch merge edildi"
+  249  git commit -m "iki branch merge edildi"
+  250  vim yeni_dosya1.txt 
+  251  cd ..
+  252  git status
+  253  clear
+  254  mkdir branches
+  255  cd branches/
+  256  git init
+  257  touch index.html
+  258  vim index.html 
+  259  cat index.html 
+  260  git status
+  261  git add index.html 
+  262  git status
+  263  git commit -m "index.html eklendi"
+  264  clear
+  265  git checkout -b develop
+  266  vim index.html 
+  267  git status
+  268  git add .
+  269  git commit -m "index üzerinde değişilklik yapıldı"
+  270  clear
+  271  git checkout main
+  272  git branch hotfix
+  273  git checkout hotfix 
+  274  cat index.html 
+  275  vim index.html 
+  276  git status 
+  277  git add .
+  278  git commit -m "dünya yerine mars yazıldı"
+  279  git checkout main
+  280  clear
+  281  git merge hotfix 
+  282  vim index.html 
+  283  git commit -am "v0.5 düzeltildi."
+  284  git checkout develop
+  285  git branch feature
+  286  git checkout feature 
+  287  clear
+  288  vim index.html 
+  289  git status
+  290  git commit -a -m "feature1 eklendi"
+  291  vim index.html 
+  292  git add .
+  293  git commit -m "feature-1 değiştirildi"
+  294  git checkout develop 
+  295  clear
+  296  vim index.html 
+  297  git commit -am "değişiklik yapıldı"
+  298  git merge feature 
+  299  vim index.html 
+  300  git add .
+  301  git commit -m "merge conflict giderildi"
+  302  git log
+  303  git checkout hotfix 
+  304  git log
+  305  git log --graph --oneline
+  306  git checkout feature
+  307  git log --graph --oneline
+  308  git log --graph --oneline --decorate
+  309  git log --graph --oneline
+  310  git checkout develop 
+  311  git log --graph --oneline
+  312  git checkout 
+  313  git checkout main
+  314  git log --graph --oneline
+  315  history > komutlar.txt
