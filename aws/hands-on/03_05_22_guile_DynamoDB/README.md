@@ -113,7 +113,7 @@ unzip sampledata.zip
 
   ```bash
   aws dynamodb batch-write-item --request-items file://Reply.json
-  ```
+  ```sa
 
 - Verify that data is uploaded into the tables from the AWS Management Console;
 
