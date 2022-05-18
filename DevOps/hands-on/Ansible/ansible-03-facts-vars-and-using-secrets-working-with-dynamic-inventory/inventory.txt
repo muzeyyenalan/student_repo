@@ -1,0 +1,5 @@
+[webservers]
+node1 ansible_host=172.31.95.204 ansible_ssh_private_key_file=~/FatalSecKey.pem ansible_user=ec2-user
+node2 ansible_host=172.31.80.105 ansible_ssh_private_key_file=~/FatalSecKey.pem ansible_user=ec2-user
+[ubuntuservers]
+node3 ansible_host=172.31.87.39 ansible_ssh_private_key_file=~/FatalSecKey.pem ansible_user=ubuntu
