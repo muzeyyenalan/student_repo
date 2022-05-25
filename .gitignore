@@ -44,3 +44,15 @@ aws/credentials/fatalrhym_credentials (4).csv
 aws/credentials/github-private-token.txt
 ADD_Snapshot-AMI.pdf
 10-22-tw-006-team-lead.pdf
+terminal_renklendirme.txt
+bash renklendirme.txt
+html-css/my_portfolio_site/bootstrap/startbootstrap-resume-gh-pages.zip
+html-css/my_portfolio_site/bootstrap/startbootstrap-grayscale-gh-pages.zip
+html-css/my_portfolio_site/bootstrap/startbootstrap-freelancer-gh-pages.zip
+html-css/my_portfolio_site/bootstrap/startbootstrap-grayscale-gh-pages/doc/Resume_MFY.docx
+DevOps/hands-on/Kubernetes/eks-02-DynamicVolumeProvisionining-and-Ingress/lesson/kubectl
+DevOps/hands-on/Kubernetes/eks-03-AWS-EKS-ALB-ingress/lesson/id_rsa.pub
+DevOps/hands-on/Ansible/ansible-03-facts-vars-and-using-secrets-working-with-dynamic-inventory/terraform-files/variable.tf
+DevOps/hands-on/Ansible/ansible-03-facts-vars-and-using-secrets-working-with-dynamic-inventory/terraform-files/myvars.auto.tfvars
+DevOps/hands-on/Ansible/ansible-03-facts-vars-and-using-secrets-working-with-dynamic-inventory/terraform-files/main.tf
+DevOps/hands-on/Ansible/ansible-03-facts-vars-and-using-secrets-working-with-dynamic-inventory/ansible.cfg
